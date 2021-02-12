@@ -2,7 +2,7 @@
 
 #### {Brief description of application}, {Date of current version}
 
-#### By Parker Benoit
+#### By Parker Benoit 2/11/2021
 
 ## Description
 
