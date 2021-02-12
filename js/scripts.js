@@ -1,46 +1,25 @@
-// business logic
+//starting OverconstrainedError
 
-const beep = "beep!"
-const boop = "boop!"
-const neighbor = "won't you be my neighbor?"
+//yup.
 
-const mrRoboger = function(input) {
+//BUSINESS LOGIC ///...
+
+function mrRoboger(input) {
   let numbers = [];
-  for (let x = 0; x <= input; x++) {
+  for (let x = 0; x < input; x++) {
     numbers.push(x.toString());
-  };
-
-  let robogers = numbers.map(function(number) {
-    if (userNumber.includes("3")) {
-      //return userNumber = neighbor;
-      return neighbor;
-    } else {
-      return userNumber;
-    };
-  });
-  return robogers;
-};
+  }
+}
 
 
 
-//console.log("testing 123")
 
-//console.log(numbers)
 
-// user interface logic
 
-// $(document).ready(function() {
-//   $(document).select()
-//   console.log("BEEP BEEP IM A JEEP");
-//   $("form#userNumber").submit(function(event) {
-//     event.preventDefault();
-    
+
+//UI LOGIC ////
+
 $(document).ready(function() {
   $(document).on("submit", function(event) {
     event.preventDefault();
-
-    let x = $("input").val();
-
-    console.log(x);
-  });
-});
+})
