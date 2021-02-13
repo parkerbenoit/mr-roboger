@@ -11,7 +11,9 @@ function mrRoboger(input) {
 
     if (numbers[x].includes("3")) {
       numbers[x] = "won't you be my neighbor?";
-    } 
+    } else if (numbers[x].includes("2")) {
+      numbers[x] = "boop";
+    }
   }
   return numbers;
 }

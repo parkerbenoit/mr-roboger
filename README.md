@@ -21,6 +21,11 @@ Expect: mrRoboger(7) to return ([0,1,2,3,4,5,6,7]);
 Test: It will replace all digits of number containing "3" with "won't you be my neighbor?"
 Expect: mrRoboger(4) to return (0,1,2,won't you be my neighbor?, 4);
 
+Test: It will replace all digits of number containing "2" with "boop"
+Expect: mrRoboger(4) to return (0,1,boop,won't you be my neighbor?, 4);
+
+
+
 
 
 ## Setup/Installation Requirements
