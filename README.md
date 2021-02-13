@@ -1,8 +1,6 @@
 # Mr Roboger's Neighborhood
 
-#### {Brief description of application}, {Date of current version}
-
-#### By Parker Benoit 2/11/2021
+#### By Parker Benoit 2/12/2021
 
 ## Description
 
@@ -24,23 +22,30 @@ Expect: mrRoboger(4) to return (0,1,2,won't you be my neighbor?, 4);
 Test: It will replace all digits of number containing "2" with "boop"
 Expect: mrRoboger(4) to return (0,1,boop,won't you be my neighbor?, 4);
 
-
-
-
+Test: It will replace all digits of number containing "1" with "beep"
+Expect: mrRoboger(4) to return (0,beep,boop,won't you be my neighbor?, 4);
 
 ## Setup/Installation Requirements
 
-* This is a great place
-* to list setup instructions
-* in a simple
-* easy-to-understand
-* format
+Software requirements:
 
-{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this app depends on?}
+1. Internet Browser
+2. A code editor like VSCode or ATOM to view or edit the codebase
+
+Open by downloading:
+1. Download this repository onto your computer: 'git clone https://github.com/parkerbenoit/mr-roboger'
+2. Double clikc the index.html to open it in your web browser
+
+OR
+
+Open via Bash/GitBash:
+1. Clone the repository onto your computer: 'git clone https://github.com/parkerbenoit/mr-roboger'
+2. Navigate into the mr-roboger directory, and open in Visual Studio Code or your preferred text editor with the 'code .' command.
+3. Open index.html in Chrome or your preferred web browser.
 
 ## Known Bugs
 
-{Are there issues that have not yet been resolved that you want to let users know you know?  Outline any issues that would impact use of your application.  Share any workarounds that are in place. }
+There are no known bugs as of 2/12/2021
 
 ## Support and contact details
 

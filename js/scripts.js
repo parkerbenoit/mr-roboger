@@ -1,7 +1,3 @@
-//starting OverconstrainedError
-
-//yup.
-
 //BUSINESS LOGIC ///...
 
 function mrRoboger(input) {
@@ -13,16 +9,12 @@ function mrRoboger(input) {
       numbers[x] = "won't you be my neighbor?";
     } else if (numbers[x].includes("2")) {
       numbers[x] = "boop";
+    } else if (numbers[x].includes("1")) {
+      numbers[x] = "beep";
     }
   }
   return numbers;
 }
-
-
-
-
-
-
 
 //UI LOGIC ////
 
