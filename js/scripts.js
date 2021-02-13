@@ -6,7 +6,7 @@
 
 function mrRoboger(input) {
   let numbers = [];
-  for (let x = 0; x < input; x++) {
+  for (let x = 0; x <= input; x++) {
     numbers.push(x.toString());
 
     if (numbers[x].includes("3")) {
@@ -25,13 +25,13 @@ function mrRoboger(input) {
 //UI LOGIC ////
 
 $(document).ready(function() {
-  $("form#userNumber").submit(function(event) {
+  $("form#userInput").submit(function(event) {
     event.preventDefault();
 
     let userNumber = parseInt($("#input").val());
 
     const final = mrRoboger(userNumber);
 
-    ("#results").text(final);
+    $("#results").text(final);
   });
 });
